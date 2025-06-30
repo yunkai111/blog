@@ -4,20 +4,20 @@ import { themes } from 'prism-react-renderer'
 import social from './data/social'
 import type { GiscusConfig } from './src/components/Comment'
 
-const beian = '闽ICP备2020017848号-3'
-const beian1 = '闽公网安备35021102000847号'
+const beian = ''
+const beian1 = ''
 
 const config: Config = {
-  title: '愧怍',
-  url: 'https://kuizuo.me',
+  title: '云凯',
+  url: 'https://yunkai.icu',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'yunkai',
   projectName: 'blog',
   customFields: {
-    bio: '道阻且长，行则将至',
+    bio: ' ',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      '是一借鉴https://kuizuo.me博客改编的,主要用于个人介绍和一些知识学习。',
   },
   themeConfig: {
     // announcementBar: {
@@ -28,7 +28,7 @@ const config: Config = {
     metadata: [
       {
         name: 'author',
-        content: '愧怍',
+        content: '云凯',
       },
       {
         name: 'keywords',
@@ -46,7 +46,7 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: '愧怍',
+        alt: '云凯',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
